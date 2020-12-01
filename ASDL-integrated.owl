@@ -1,0 +1,1341 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dawn/ontologies/2017/11/ASDL-integrated"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dawn/ontologies/2017/11/ASDL-integrated">
+    <Prefix name="" IRI="http://www.semanticweb.org/dawn/ontologies/2017/11/ASDL-integrated"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#IAFDOF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#NAVAID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Standby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cleared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Updates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Update_EFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Handoffs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#7L"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runway_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine_Num"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Error"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Maintain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wake_Turbulence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Alt_Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Immediately"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Normal_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airway_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Mayday_Mayday_Mayday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wake_Turbulence_Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ASOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Route"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Climb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Make_Pointout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Red_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Operating_Mach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Rate_of_Climb_wo_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Own_Navigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Heading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Crosswind_Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fix_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Headwind"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descent_Best"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Continue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reporting_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Flight_Path"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Acknowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Structural_Cruising_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Call_Sign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Taxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Sector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Affirmative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Stop_Squawk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_Elevation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Gate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Rules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Center"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wind_Shear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Never_Exceed_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Orange_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minimum_Control_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Ident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Dew_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Longer_Observed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expect_Further_Clearance_Via"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IAF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Abort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach_ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Altimeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Estimated_Time_Enroute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Update_Airport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Take_Pointout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Hold_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Indicated_Airspeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Visibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runway_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#APREQ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact_Lost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Weight_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Heading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Landing_Reference_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Substitute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climb_Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cruising_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WS_Elevation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reduce_Speed_To"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reporting_Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Sky_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clean_Stall_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Route_Change"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maximum_Operating_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cross_Fix_At_Altitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Yellow_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descent_Norm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expedite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Best_Rate_of_Climb_Airspeed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cruise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Alerts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Direct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Elevation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fix_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dirty_Stall_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Takeoff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airport_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climb_Best"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WS_Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Runway_Heading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maneuvering_Speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Squawk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Airway_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reroute_Terms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Pointouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Lower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Flight_Level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Arrival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotation_Speed"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Abort"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Acknowledge"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Affirmative"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Alert"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cleared"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Continue"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cross_Fix_At_Altitude"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Crosswind_Component"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cruise"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Dew_Point"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Direct"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Elevation"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Error"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Estimated_Time_Enroute"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expect_Further_Clearance_Via"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expedite"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Rules"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Gate"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Headwind"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Hold_Position"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Ident"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Identifier"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Immediately"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Length"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Maintain"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Mayday_Mayday_Mayday"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#NAVAID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Negative"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact_Lost"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reduce_Speed_To"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reporting_Point"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reroute_Terms"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Normal_Speed"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Own_Navigation"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Altitude"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Heading"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Sky_Condition"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Squawk"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Standby"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Stop_Squawk"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Substitute"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Taxi"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Temperature"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_Alert"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Factor"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Longer_Observed"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Enroute_Terms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Visibility"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wake_Turbulence"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wind_Shear"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ASOS"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_Elevation"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_ID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_Name"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_Position"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airport_Type"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airway_ID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Airway_Type"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Altimeter"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approach"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approach_ID"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approach_Type"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Rate_of_Climb_Airspeed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Best_Rate_of_Climb_wo_Engine"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceiling"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clean_Stall_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climb_Best"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climb_Norm"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruising_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descent_Best"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descent_Norm"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dirty_Stall_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engine_Num"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engine_Type"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAF"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fix_ID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fix_ID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fix_Type"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IAF"/>
+        <Class IRI="#Approach"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landing"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Landing_Reference_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maneuvering_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Operating_Mach"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Operating_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maximum_Structural_Cruising_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metar"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minimum_Control_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Never_Exceed_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reporting_Time"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotation_Speed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runway"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runway_Heading"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runway_ID"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Runway_Position"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sources"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Takeoff"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Temperature"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WS_Elevation"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WS_Position"/>
+        <Class IRI="#Weather_Station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wake_Turbulence_Category"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather_Station"/>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#AC_Type"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#APREQ"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Alerts"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Altitude"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Arrival"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Call_Sign"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Category"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Center"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Controller"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Entities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Departure"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Flight_Level"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Flight_Path"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Handoffs"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Heading"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Hold"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#IAFDOF"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Indicated_Airspeed"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Make_Pointout"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Pointouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Orange_Alert"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Alerts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Pointouts"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Red_Alert"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Alerts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Alt_Change"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Climb"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Req_Lower"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Requests"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Route"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Route_Change"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Sector"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Center"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Take_Pointout"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Pointouts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Update_Airport"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Updates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Update_EFC"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Updates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Updates"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Actions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Weight_Class"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Yellow_Alert"/>
+        <Class IRI="http://www.semanticweb.org/dawn/ontologies/2017/8/untitled-ontology-5#Alerts"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#7L"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Abort</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">To terminate a preplanned aircraft maneuver; e.g., an aborted takeoff.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Acknowledge</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Let me know that you have received and understood this message.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Affirmative</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Yes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A service operated by appropriate authority to promote the safe, orderly and expeditious flow of air traffic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An area on land or water that is used or intended to be used for the landing and takeoff of aircraft and includes its buildings and facilities, if any.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airway</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Class E airspace area established in the form of a corridor, the centerline of which is defined by radio navigational aids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Alert</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A notification to a position that there is an aircraft-to-aircraft or aircraft-to-airspace conflict, as detected by Automated Problem Detection (APD).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cleared</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ATC authorization for an aircraft to execute any specific action. Needs to be followed by the action name, such as “Cleared Approach”, “Cleared for Takeoff”, “Cleared to Land”, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Continue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When used as a control instruction should be followed by another word or words clarifying what is expected of the pilot. Example: “continue taxi,” “continue descent,” “continue inbound,” etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cross_Fix_At_Altitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC when a specific altitude restriction at a specified fix is required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Crosswind_Component</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The wind component measured in knots at 90 degrees to the longitudinal axis of the runway.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cruise</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used in an ATC clearance to authorize a pilot to conduct flight at any altitude from the minimum IFR altitude up to and including the altitude specified in the clearance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Dew_Point</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The temperature at which dew forms. It is a measure of atmospheric moisture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Direct</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Straight line flight between two navigational aids, fixes, points, or any combination thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Elevation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The highest point of an airport’s usable runways measured in feet from mean sea level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Error</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System-generated notification of an error.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Estimated_Time_Enroute</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The estimated flying time from departure point to destination (lift-off to touchdown).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expect_Further_Clearance_Via</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to inform a pilot of the routing he/she can expect if any part of the route beyond a short range clearance limit differs from that filed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Expedite</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC when prompt compliance is required to avoid the development of an imminent situation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fix</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The geographical position determined by visual reference to the surface, by reference to one or more radio NAVAIDs, by celestial plotting, or by another navigational device.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Rules</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The set of rules that govern the flight: VFR or IFR. VFR stands for Visual Flight Rules and IFR means Instrument Flight Rules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Gate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A gate that allows passengers to go from the terminal to the airplane. Also referred to as the parking space for the aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Headwind</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A wind blowing from directly in front, opposing forward motion.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Hold_Position</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Instruction to hold the current position.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Ident</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A request for a pilot to activate the aircraft transponder identification feature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Identifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The three-character airport code assigned by the International Air Transport Association.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Immediately</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Instruction to immediately comply with the associated instruction to avoid an imminent situation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Length</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The length of runway which is declared available and suitable for the ground run of an aeroplane takeoff or landing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Maintain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Concerning altitude/flight level, the term means to remain at the altitude/flight level specified by ATC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Mayday_Mayday_Mayday</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indication of an emergency situation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#NAVAID</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Any visual or electronic device airborne or on the surface which provides point-to-point guidance information or position data to aircraft in flight.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Negative</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">“No” or “Permission not granted” or “That is not correct.”</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to inform an aircraft that it is identified on the radar display and radar flight following will be provided until radar identification is terminated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Radar_Contact_Lost</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to inform a pilot that radar data used to determine the aircraft’s position is no longer being received, or is no longer reliable and radar service is no longer being provided.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reduce_Speed_To</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An ATC procedure used to request pilots to adjust aircraft speed to a specific value for the purpose of providing desired spacing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Reporting_Point</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A geographical location in relation to which the position of an aircraft is reported.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Normal_Speed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to advise a pilot to resume an aircraft’s normal operating speed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Resume_Own_Navigation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to advise a pilot to resume his/her own navigational responsibility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A defined rectangular area on a land aerodrome prepared for the landing and take-off of aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Altitude</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to ascertain an aircraft’s specific altitude/flight level.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Say_Heading</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to ascertain an aircraft’s specific heading.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Sky_Condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A description of the appearance of the sky. Sky condition may be evaluated either automatically by instrument or manually with or without instruments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Squawk</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to request a pilot activate specific modes/codes/functions on the aircraft transponder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Standby</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indication that the message will be responded to shortly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Stop_Squawk</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used by ATC to tell the pilot to turn specified functions of the aircraft transponder off.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Substitute</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ATC term used immediated preceeding the alternative route in the issued clearance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Taxi</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The movement of an airplane under its own power on the surface of an airport. Also, used by ATC to issue and authorize a route for the aircaft/vehicle to follow on the movement area, including the specific route to follow.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Temperature</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The degree or intensity of heat present in a substance or object, as expressed according to a comparative scale and shown by a thermometer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A building at an airport where passengers transfer between ground transportation and the facilities that allow them to board and disembark from aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_Alert</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A safety alert issued by ATC to aircraft under their control if ATC is aware the aircraft is at an altitude which, in the controller’s judgment, places the aircraft in unsafe proximity to other aircraft.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Factor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the traffic described in a previously issued traffic advisory is no factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Traffic_No_Longer_Observed</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the traffic described in a previously issued traffic advisory is no longer depicted on radar, but may still be a factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Visibility</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The ability, as determined by atmospheric conditions and expressed in units of distance, to see and identify prominent unlighted objects by day and prominent lighted objects by night.
+a. Flight Visibility−The visibility forward from the cockpit of an aircraft in flight.
+b. Ground Visibility−The visibility at an aerodrome as reported by an accredited observer.
+c. Runway Visual Range [RVR]−The range over which the pilot of an aircraft on the centerline of a runway can see the runway surface markings or the lights delineating the runway or identifying its centerline.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wake_Turbulence</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Phenomena resulting from the passage of an aircraft through the atmosphere. The term includes vortices, thrust stream turbulence, jet blast, jet wash, propeller wash, and rotor wash both on the ground and in the air.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wind_Shear</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A change in wind speed and/or wind direction in a short distance resulting in a tearing or shearing effect. It can exist in a horizontal or vertical direction and occasionally in both.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
